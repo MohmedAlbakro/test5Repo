@@ -11,6 +11,6 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::inertia('dashboard', 'dashboard')->name('dashboard');
 });
 Route::get('test',function (){
- return " i am in vscode";
+ return " i am in 1";
 });
 require __DIR__.'/settings.php';
