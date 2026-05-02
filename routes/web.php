@@ -12,8 +12,13 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 Route::get('test',function (){
 
-    $errpr = 'jnscdsmk';
+
  return response()->json(';dkidjd');
 
 });
+
+Route::get('test',function (){
+    return response()->json('hello world');
+});
+
 require __DIR__.'/settings.php';
