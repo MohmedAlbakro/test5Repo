@@ -12,7 +12,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 Route::get('test',function (){
 
- return " i am in 1";
+    $errpr = 'jnscdsmk';
+ return response()->json(';dkidjd');
 
 });
 require __DIR__.'/settings.php';
